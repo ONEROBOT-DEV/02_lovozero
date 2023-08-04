@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.fidt17.uvm": {
+      "version": "https://github.com/fidt17/Validator.git?path=/Assets/fidt17/UnityValidationModule",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "0965b4a61fef71352ce9dd16cef8c472fea4ca3b"
+    },
     "com.unity.2d.animation": {
       "version": "7.0.10",
       "depth": 1,
@@ -152,6 +159,15 @@
       "depth": 2,
       "source": "registry",
       "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.recorder": {
+      "version": "3.0.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.timeline": "1.0.0"
+      },
       "url": "https://packages.unity.com"
     },
     "com.unity.test-framework": {
